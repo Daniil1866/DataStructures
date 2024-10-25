@@ -3,19 +3,21 @@
     private static void Main(string[] args)
     {
         Console.Clear();
-        Stack<string> stack = new Stack<string>();
+        Queue<string> queue = new Queue<string>();
 
-        //A LIFO data structure, useful in cases where you need to do undo/redo actions
+        // FIFO data structure, areas of use: printer buffer, keyboard buffer, any data that waits to be processed
 
-        stack.Push("item1");
-        stack.Push("item2");
-        stack.Push("item3");
-        stack.Push("item4");
-        stack.Push("item5");
+        queue.Enqueue("item1");
+        queue.Enqueue("item2");
+        queue.Enqueue("item3");
 
-        while (stack.Count > 0)
+        while (queue.Count > 1)
         {
-            System.Console.WriteLine(stack.Pop());
+            System.Console.WriteLine(queue.Dequeue());
         }
+        
+        queue.Peek();
+        
+        System.Console.WriteLine(queue.Contains("item3"));
     }
 }

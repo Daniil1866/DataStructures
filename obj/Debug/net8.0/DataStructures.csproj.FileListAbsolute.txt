@@ -12,3 +12,4 @@
 /Users/daniilsahov/Documents/C#/DataStructures/obj/Debug/net8.0/DataStructures.pdb
 /Users/daniilsahov/Documents/C#/DataStructures/obj/Debug/net8.0/DataStructures.genruntimeconfig.cache
 /Users/daniilsahov/Documents/C#/DataStructures/obj/Debug/net8.0/ref/DataStructures.dll
+/Users/daniilsahov/Documents/C#/DataStructures/obj/Debug/net8.0/DataStructures.sourcelink.json
